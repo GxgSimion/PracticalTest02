@@ -29,7 +29,7 @@
                     android:layout_height="wrap_content"
                     android:text="Cmd"/>
                 <Spinner
-                    android:id="@+id/information_type_spinner"
+                    android:id="@+id/command_spinner"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:entries="@array/commands"
@@ -39,11 +39,13 @@
 
             <EditText
                 android:layout_width="wrap_content"
+                android:id="@+id/key"
                 android:layout_height="wrap_content"
                 android:hint="Key"
                 />
             <EditText
                 android:layout_width="wrap_content"
+                android:id="@+id/value"
                 android:layout_height="wrap_content"
                 android:hint="Value"/>
             <Button
